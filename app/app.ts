@@ -29,7 +29,11 @@ server.use(restify.plugins.authorizationParser());
 
 server.listen(process.env.PORT || 8080, () => {
   mongoose.Promise = global.Promise;
-  mongoose.connect('mongodb://127.0.0.1:27017/varejo', {useMongoClient: true});
+  let dbHost = process.env.DB_HOST || '127.0.0.1';
+  let dbPort = process.env.DB_PORT || '27017';
+  let dbName = process.env.DB_NAME || 'varejo';
+
+  mongoose.connect('mongodb://' + dbHost + ':' + dbPort + '/' + dbName, {useMongoClient: true});
   
   const db = mongoose.connection;
 
