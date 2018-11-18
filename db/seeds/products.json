@@ -1,6 +1,6 @@
 [
   {
-    "name": "Kit Cama 2010 fios",
+    "name": "Lençol Avulso Cama Solteiro",
     "type": "Classic I",
     "size": "Solteiro",
     "category": "Lençol Avulso",
@@ -12,7 +12,355 @@
       { "path": "/images/lencol_solteiro_cama.jpeg" },
       { "path": "/images/lencol_solteiro_cama_lado.jpg" }
     ]
-  },
+  }, {
+    "name": "Lençol Avulso Cama Solteiro",
+    "type": "Deluxe I",
+    "size": "Solteiro",
+    "category": "Lençol Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
     ]
-  }
+  }, {
+    "name": "Lençol Avulso Cama Solteiro",
+    "type": "Superb I",
+    "size": "Solteiro",
+    "category": "Lençol Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama Casal",
+    "type": "Classic I",
+    "size": "Casal",
+    "category": "Lençol Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama Casal",
+    "type": "Deluxe I",
+    "size": "Casal",
+    "category": "Lençol Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama Casal",
+    "type": "Superb I",
+    "size": "Casal",
+    "category": "Lençol Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama King",
+    "type": "Classic I",
+    "size": "King",
+    "category": "Lençol Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama King",
+    "type": "Deluxe I",
+    "size": "King",
+    "category": "Lençol Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Lençol Avulso Cama King",
+    "type": "Superb I",
+    "size": "King",
+    "category": "Lençol Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Solteiro",
+    "type": "Classic I",
+    "size": "Solteiro",
+    "category": "Edredom Avulso",
+    "oldPrice": 298.00,
+    "price": 98.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Solteiro",
+    "type": "Deluxe I",
+    "size": "Solteiro",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Solteiro",
+    "type": "Superb I",
+    "size": "Solteiro",
+    "category": "Edredom Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Casal",
+    "type": "Classic I",
+    "size": "Casal",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Casal",
+    "type": "Deluxe I",
+    "size": "Casal",
+    "category": "Edredom Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama Casal",
+    "type": "Superb I",
+    "size": "Casal",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama King",
+    "type": "Classic I",
+    "size": "King",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama King",
+    "type": "Deluxe I",
+    "size": "King",
+    "category": "Edredom Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulso Cama King",
+    "type": "Superb I",
+    "size": "King",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/edredom_solteiro.jpeg" },
+      { "path": "/images/edredom_solteiro_zoom.jpeg" },
+      { "path": "/images/edredom_solteiro_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama Solteiro",
+    "type": "Classic I",
+    "size": "Solteiro",
+    "category": "Saia Avulsa",
+    "oldPrice": 298.00,
+    "price": 98.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama Solteiro",
+    "type": "Deluxe I",
+    "size": "Solteiro",
+    "category": "Saia Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama Solteiro",
+    "type": "Superb I",
+    "size": "Solteiro",
+    "category": "Saia Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Edredom Avulsa Cama Casal",
+    "type": "Classic I",
+    "size": "Casal",
+    "category": "Edredom Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama Casal",
+    "type": "Deluxe I",
+    "size": "Casal",
+    "category": "Saia Avulso",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama Casal",
+    "type": "Deluxe I",
+    "size": "Casal",
+    "category": "Saia Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama King",
+    "type": "Classic I",
+    "size": "King",
+    "category": "Saia Avulso",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama King",
+    "type": "Deluxe I",
+    "size": "King",
+    "category": "Saia Avulsa",
+    "oldPrice": 498.00,
+    "price": 298.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  }, {
+    "name": "Saia Avulsa Cama King",
+    "type": "Deluxe I",
+    "size": "King",
+    "category": "Saia Avulsa",
+    "oldPrice": 398.00,
+    "price": 198.00,
+    "images": [
+      { "path": "/images/saia_solteiro.jpeg" },
+      { "path": "/images/saia_solteiro_lado.jpeg" }
+    ]
+  } , {
+    "name": "Toalha de Banho",
+    "type": "Tradicional",
+    "size": "Banho",
+    "category": "Toalha",
+    "oldPrice": 90.00,
+    "price": 45.00,
+    "images": [
+      { "path": "/images/toalha_banho.jpeg" },
+      { "path": "/images/toalha_banho_lado.jpeg" },
+      { "path": "/images/toalha_banho_zoom.jpeg" },
+      { "path": "/images/toalha_banho_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Toalha de Rosto",
+    "type": "Tradicional",
+    "size": "2 peças",
+    "category": "Toalha",
+    "oldPrice": 100.00,
+    "price": 50.00,
+    "images": [
+      { "path": "/images/toalha_rosto.jpeg" },
+      { "path": "/images/toalha_rosto_lado.jpeg" },
+      { "path": "/images/toalha_rosto_zoom.jpeg" },
+      { "path": "/images/toalha_rosto_arrumado.jpeg" }
+    ]
+  }, {
+    "name": "Tapete de Banheiro",
+    "type": "Tapete",
+    "size": "1 peça",
+    "category": "Tapete",
+    "oldPrice": 198.00,
+    "price": 98.00,
+    "images": [
+      { "path": "/images/tapete_banheiro.jpeg" },
+      { "path": "/images/tapete_banheiro_rosa.jpeg" },
+      { "path": "/images/tapete_banheiro_bege.jpeg" },
+      { "path": "/images/tapete_banheiro_azul.jpeg" }
+    ]
+  }  
 ]
