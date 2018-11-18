@@ -21,6 +21,8 @@ export default class ProductController {
       delete filters.search;
     }
 
+    filters.category = new RegExp(filters.category, 'i');
+
     Product.count(filters, function(err, count) {
       Product.find(filters, null, {skip: (page - 1) * limit, limit: limit}, (err, products) => {
         if (err) {
