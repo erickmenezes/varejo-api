@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Kit Cama 2010 fios",
+    "type": "Classic I",
+    "size": "Solteiro",
+    "category": "Lençol Avulso",
+    "oldPrice": 298.00,
+    "price": 98.00,
+    "images": [
+      { "path": "/images/lencol_solteiro.jpeg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" }
+    ]
+  }
+]

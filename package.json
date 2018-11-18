@@ -9,8 +9,10 @@
     "test": "npm run compile && mocha dist/test/**/*.spec.js"
   },
   "dependencies": {
+    "@types/mongoose": "^4.7.25",
     "@types/node": "^8.0.47",
     "@types/restify": "^5.0.6",
+    "mongoose": "^4.13.0",
     "restify": "^6.3.1"
   },
   "devDependencies": {

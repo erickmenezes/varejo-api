@@ -1,5 +1,7 @@
+import * as fs from 'fs';
 import * as restify from 'restify';
-import * as echo from './routes/echo';
+
+import mongoose = require('mongoose');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
@@ -15,8 +17,30 @@ server.use(restify.plugins.queryParser({ mapParams: true }));
 server.use(restify.plugins.fullResponse());
 server.use(restify.plugins.authorizationParser());
 
-echo.setRoutes(server);
-
 server.listen(process.env.PORT || 8080, () => {
-  console.log('%s listening at %s', server.name, server.url);
+  mongoose.Promise = global.Promise;
+  mongoose.connect('mongodb://127.0.0.1:27017/varejo', {useMongoClient: true});
+  
+  const db = mongoose.connection;
+
+  db.on('error', (err) => {
+    console.error(err);
+    process.exit(1);
+  });
+
+  db.once('open', () => {
+    setAllRoutes();
+
+    console.log('%s listening at %s', server.name, server.url);
+  });
+
 });
+
+function setAllRoutes() {
+  fs.readdirSync(__dirname + '/routes').forEach((routeConfig: string) => {
+    if (routeConfig.substr(-3) === '.js' && routeConfig !== 'index.js') {
+      const route = require(__dirname + '/routes/' + routeConfig);
+      route.setRoutes(server);
+    }
+  });
+}
