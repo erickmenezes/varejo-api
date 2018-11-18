@@ -10,14 +10,19 @@ export default class ProductController {
     let limit = parseInt(query.limit) || 8;
     let page = parseInt(query.page) || 1;
 
-    let where = Object.assign({}, query, {})
+    let filters = Object.assign({}, query, {})
 
-    delete where.limit;
-    delete where.page;
+    delete filters.limit;
+    delete filters.page;
     delete query.page;
 
-    Product.count(where, function(err, count) {
-      Product.find(where, null, {skip: (page - 1) * limit, limit: limit}, (err, products) => {
+    if (filters.search) {
+      filters.category = querystring.unescape(filters.search);
+      delete filters.search;
+    }
+
+    Product.count(filters, function(err, count) {
+      Product.find(filters, null, {skip: (page - 1) * limit, limit: limit}, (err, products) => {
         if (err) {
           return next(err);
         }
