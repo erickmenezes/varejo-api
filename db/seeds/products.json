@@ -8,7 +8,11 @@
     "price": 98.00,
     "images": [
       { "path": "/images/lencol_solteiro.jpeg" },
-      { "path": "/images/lencol_solteiro_cama.jpeg" }
+      { "path": "/images/lencol_solteiro_lado.jpg" },
+      { "path": "/images/lencol_solteiro_cama.jpeg" },
+      { "path": "/images/lencol_solteiro_cama_lado.jpg" }
+    ]
+  },
     ]
   }
 ]
