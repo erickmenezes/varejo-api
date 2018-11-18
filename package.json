@@ -6,7 +6,7 @@
     "build": "tsc --watch",
     "compile": "tsc",
     "start": "npm run compile && node dist/app/app.js",
-    "test": "npm run compile && mocha dist/test/**/*.spec.js"
+    "test": "npm run compile && mocha dist/test/**/*.spec.js --exit"
   },
   "dependencies": {
     "@types/mongoose": "^4.7.25",
