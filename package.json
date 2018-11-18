@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "build": "tsc --watch",
+    "postinstall": "npm run compile",
     "compile": "tsc",
     "start": "npm run compile && node dist/app/app.js",
     "test": "npm run compile && mocha dist/test/**/*.spec.js --exit"
