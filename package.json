@@ -12,8 +12,10 @@
     "@types/mongoose": "^4.7.25",
     "@types/node": "^8.0.47",
     "@types/restify": "^5.0.6",
+    "@types/restify-cors-middleware": "^1.0.1",
     "mongoose": "^4.13.0",
-    "restify": "^6.3.1"
+    "restify": "^6.3.1",
+    "restify-cors-middleware": "^1.0.1"
   },
   "devDependencies": {
     "@types/chai": "^4.0.4",
