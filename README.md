@@ -22,7 +22,7 @@ Para instalar as depêdencias do projeto, basta executar:
   $ npm install
   ```
 
-Caso queira popular o banco de dados com uma base de produtos, difite no terminal: 
+Caso queira popular o banco de dados com uma base de produtos, digite no terminal: 
 
   ```sh
   $ mongoimport --host localhost:27017 --db varejo --collection Product --file db/seeds/products.json --drop --jsonArray --verbose
