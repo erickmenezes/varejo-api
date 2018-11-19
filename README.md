@@ -7,15 +7,14 @@ A API final pode ser testada em: https://pacific-escarpment-70312.herokuapp.com/
 Esse projeto também utiliza o projeto-irmão [varejo-front] para mostrar os dados visualmente.
 
 ## Rodando localmente
----
 Para rodar localmente garanta que tenha instalado o [Node.js] e o [MongoDB]. 
 
 Após basta executar os seguintes comandos abaixo no seu terminal.
 
-    ```sh
-    $ git clone https://github.com/erickmenezes/varejo-api.git
-    $ cd varejo-api
-    ```
+  ```sh
+  $ git clone https://github.com/erickmenezes/varejo-api.git
+  $ cd varejo-api
+  ```
 
 Para instalar as depêdencias do projeto, basta executar:
 
@@ -40,7 +39,6 @@ Com tudo pronto, basta executar:
 Com isso, a aplicação estará rodando em http://localhost:8080.
 
 ## Chamando a API
----
 
 O endpoint gerado pelo app é: http://localhost:8080/products. Esse endpoint irá buscar por todos os produtos cadastrados na base. A partir dele é possível filtrar as buscas utilizando query parameters na URL. Segue abaixo os parâmetros disponíveis:
 
