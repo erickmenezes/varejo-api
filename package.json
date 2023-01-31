@@ -14,7 +14,7 @@
     "@types/node": "^8.0.47",
     "@types/restify": "^5.0.6",
     "@types/restify-cors-middleware": "^1.0.1",
-    "mongoose": "^4.13.0",
+    "mongoose": "^5.13.15",
     "restify": "^6.3.1",
     "restify-cors-middleware": "^1.0.1"
   },
